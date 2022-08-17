@@ -408,8 +408,6 @@ namespace Phoenix
                     case 8:
                         if (File.Exists("config.json"))
                             File.Delete("config.json");
-                        if (Directory.Exists("Chrome"))
-                            Directory.Delete("Chrome");
                         Process.Start(Assembly.GetExecutingAssembly().Location);
                         Environment.Exit(0);
                         break;
