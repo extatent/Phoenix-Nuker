@@ -50,7 +50,7 @@ namespace Phoenix
                 var array = JArray.Parse(request);
                 foreach (dynamic entry in array)
                 {
-                    Request.Send($"/users/@me/relationships/{entry.id}", "PUT", token, "{\"type\":\"2\"}");
+                    Request.Send($"/users/@me/relationships/{entry.id}", "PUT", token, $"{{\"type\":\"2\"}}");
                     Console.WriteLine($"Blocked: {entry.user.username}#{entry.user.discriminator}", Color.Lime);
                     Sleep(Wait.Short);
                 }
