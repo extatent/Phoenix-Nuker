@@ -10,7 +10,13 @@
 
 > If you like the project, consider dropping a star ⭐
   
-> If you caught any issues, please report it in [issues](https://github.com/extatent/Phoenix-Nuker/issues) or in our [Discord server](https://dsc.gg/extatent)
+> If you caught any issues, please report it in [issues](https://github.com/extatent/Phoenix-Nuker/issues) or in our [Discord server](https://dsc.gg/extatent) (Specify **"Phoenix Nuker"** in the ticket)
+
+> Read the [FAQ](#frequently-asked-questions) before creating a new ticket/issue.
+
+> Tickets like **"how to use"**, **"I need help"**, **"not working"**, **"help me to raid/nuke"** will be ignored and deleted. Provide specific information.
+
+> Become a contributor by forking the project and opening a new pull request or [suggest new features](https://dsc.gg/extatent).
 
 <details>
 <summary>Preview</summary>
@@ -81,4 +87,4 @@
 </details>
 
 **4) How to compile the project?**
-> *Install [Visual Studio 2022](https://visualstudio.microsoft.com/) and [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0). After that, open the Solution file (.sln) or C# Project file (.csproj). On the menu bar, choose Build > Build Solution. The files will appear in ..\bin\Debug\net6.0 folder.*
+> *Install [Visual Studio 2022](https://visualstudio.microsoft.com/) and [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0). After that, open the Solution file (.sln) or C# Project file (.csproj). On the menu bar, choose Build > Build Solution (CTRL+SHIFT+B). The files will appear in ..\bin\Debug\net6.0 folder.*
