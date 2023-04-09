@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>bin\</BaseOutputPath>
+    <RepositoryUrl>https://github.com/extatent/Phoenix-Nuker</RepositoryUrl>
+    <Company>extatent</Company>
+    <PackageId>Phoenix Nuker</PackageId>
+    <Authors>Phoenix Nuker</Authors>
+    <Product>Phoenix Nuker</Product>
+    <PackageIcon></PackageIcon>
+    <PackageProjectUrl>https://github.com/extatent/Phoenix-Nuker</PackageProjectUrl>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="logo.ico" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="Colorful.Console" Version="1.2.15" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
