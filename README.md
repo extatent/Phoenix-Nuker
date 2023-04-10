@@ -1,6 +1,6 @@
 # Phoenix Nuker
 
-[![Download](https://img.shields.io/badge/Download-Now-Green?style=for-the-badge)](https://github.com/extatent/Phoenix-Nuker/releases/download/v2.4.0/Phoenix.zip)
+[![Download](https://img.shields.io/badge/Download-Now-Green?style=for-the-badge)](https://github.com/extatent/Phoenix-Nuker/releases/download/Update/Phoenix.zip)
 [![Views](https://komarev.com/ghpvc/?username=PhoenixNuker&label=Views&style=for-the-badge)](https://github.com/extatent/Phoenix-Nuker)
 [![Stars](https://img.shields.io/github/stars/extatent/Phoenix-Nuker?label=Stars&style=for-the-badge)](https://github.com/extatent/Phoenix-Nuker/stargazers)
 [![Forks](https://img.shields.io/github/forks/extatent/Phoenix-Nuker?label=Forks&style=for-the-badge)](https://github.com/extatent/Phoenix-Nuker/network/members)
@@ -12,7 +12,7 @@
 
 <details>
 <summary>Preview</summary>
-<img src="https://i.imgur.com/cFcv2rQ.png" alt="Screenshot of Phoenix Nuker">
+<img src="https://i.imgur.com/PVFDgt2.png" alt="Screenshot of Phoenix Nuker">
 </details>
 
 ---
@@ -30,7 +30,7 @@
 * ` Fully destroy an account or server`
 * ` Multi-token support (raid a server or user through a combination of tokens)`
 * ` Supports bot and user authentication tokens`
-* ` And more.`
+* ` And more`
 
 ---
 
@@ -69,7 +69,7 @@
 </details>
 
 **3) Why does the program automatically close after opening?**
-> *If Phoenix Nuker automatically closes after opening, you may need to install .NET Runtime. Please refer to the links below to download the appropriate version of .NET Runtime for your operating system:*
+> *If Phoenix Nuker automatically closes after opening, you may need to install .NET Runtime:*
 <details>
 <summary>Windows</summary>
 
