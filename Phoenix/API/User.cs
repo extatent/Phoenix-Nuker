@@ -174,17 +174,6 @@ namespace Phoenix.API
             catch { }
         }
 
-        public static void CreateGuild(string? token, string name)
-        {
-            Console.ReplaceAllColorsWithDefaults();
-            try
-            {
-                Request.Send("/guilds", "POST", token, $"{{\"name\": \"{name}\"}}");
-                Sleep(Wait.Short);
-            }
-            catch (Exception e) { Console.WriteLine($"Failed: {e.Message}", Color.Red); Sleep(Wait.Long); }
-        }
-
         public static void RemoveConnections(string? token)
         {
             Console.ReplaceAllColorsWithDefaults();

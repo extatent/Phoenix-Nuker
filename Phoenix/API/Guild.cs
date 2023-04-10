@@ -268,7 +268,7 @@ namespace Phoenix.API
                 var array = JArray.Parse(request);
                 foreach (dynamic entry in array)
                 {
-                    Request.Send($"/guilds/{gid}/integrations/" + entry["id"], "DELETE", token, null, true);
+                    Request.Send($"/guilds/{gid}/integrations/{entry["id"]}", "DELETE", token, null, true);
                     Console.WriteLine($"Deleted: {entry["name"]}", Color.Lime);
                     Sleep(Wait.Short);
                 }
@@ -294,7 +294,7 @@ namespace Phoenix.API
                 var array = JArray.Parse(request);
                 foreach (dynamic entry in array)
                 {
-                    Request.Send($"/guilds/{gid}/auto-moderation/rules/" + entry["id"], "DELETE", token, null, true);
+                    Request.Send($"/guilds/{gid}/auto-moderation/rules/{entry["id"]}", "DELETE", token, null, true);
                     Console.WriteLine($"Deleted: {entry["name"]}", Color.Lime);
                     Sleep(Wait.Short);
                 }
