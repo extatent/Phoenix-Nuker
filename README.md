@@ -90,4 +90,4 @@
 
 * [Install .NET on Linux](https://learn.microsoft.com/dotnet/core/install/linux?WT.mc_id=dotnet-35129-website)
 
-</details>
+</details> 
