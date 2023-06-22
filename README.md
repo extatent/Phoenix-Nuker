@@ -6,13 +6,13 @@
 
 ---
 
-### Important Notice: Please be advised that the free version of Phoenix Nuker will no longer be available and will only be offered as a paid version from now on. However, it will still be available for free for a limited time on our Discord server. To stay informed about the latest updates and changes regarding Phoenix Nuker going paid, we encourage you to join our Discord server (https://dsc.gg/extatent).
+### Important Notice: Phoenix is still available for free on our Discord server. To stay informed about the latest updates and other related products, we encourage you to join our Discord server (https://dsc.gg/extatent).
 
 ---
 
 <details>
 <summary>Preview</summary>
-<img src="https://i.imgur.com/rTOLglb.png" alt="Screenshot of Phoenix Nuker">
+<img src="https://i.imgur.com/JQkszyK.png" alt="Screenshot of Phoenix Nuker">
 </details>
 
 ---
@@ -73,16 +73,16 @@
 <details>
 <summary>Windows</summary>
 
-* [Download x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.5-windows-x64-installer)
-* [Download x86](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.5-windows-x86-installer)
-* [Download Arm64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.5-windows-arm64-installer)
+* [Download x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.7-windows-x64-installer)
+* [Download x86](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.7-windows-x86-installer)
+* [Download Arm64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.7-windows-arm64-installer)
 
 </details>
 <details>
 <summary>macOS</summary>
 
-* [Download x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.5-macos-x64-installer)
-* [Download Arm64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.5-macos-arm64-installer)
+* [Download x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.7-macos-x64-installer)
+* [Download Arm64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.7-macos-arm64-installer)
 
 </details>
 <details>
