@@ -6,7 +6,7 @@
 
 ---
 
-### Important Notice: Phoenix is still available for free on our Discord server. To stay informed about the latest updates and other related products, we encourage you to join our Discord server (https://discord.gg/NyqPdMF2aD).
+### Important Notice: Phoenix is still available for free on our Discord server. To stay informed about the latest updates and other related products, we encourage you to join our Discord server (https://discord.gg/extatent).
 
 ---
 
