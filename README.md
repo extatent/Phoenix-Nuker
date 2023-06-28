@@ -6,6 +6,8 @@
 
 ---
 
+> Note: Our previous Discord server was termed, so join our new : https://dsc.gg/extatent2
+
 ### Important Notice: Phoenix is still available for free on our Discord server. To stay informed about the latest updates and other related products, we encourage you to join our Discord server (https://dsc.gg/extatent2).
 
 ---
