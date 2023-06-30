@@ -7,6 +7,10 @@
 ---
 
 ### Download the latest releases from [Releases](https://github.com/extatent/Phoenix-Nuker/releases/tag/Download).
+##### Phoenix: [Click Here To Download](https://github.com/extatent/Phoenix-Nuker/releases/download/Download/Phoenix.zip).
+##### Phoenix Lite: [Click Here To Download](https://github.com/extatent/Phoenix-Nuker/releases/download/Download/Phoenix-Lite.zip).
+##### Arsenic: [Click Here To Download](https://github.com/extatent/Phoenix-Nuker/releases/download/Download/Arsenic.zip).
+
 
 ---
 ### What is the difference between Phoenix, Phoenix Lite, and Arsenic?
