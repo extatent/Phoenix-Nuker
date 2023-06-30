@@ -6,15 +6,30 @@
 
 ---
 
-> Note: Our previous Discord server was terminated, so please join our new one: https://dsc.gg/extatent2
+### Download the latest releases from [Releases](https://github.com/extatent/Phoenix-Nuker/releases/tag/Download).
 
-### Important Notice: Phoenix is still available for free on our Discord server. To stay informed about the latest updates and other related products, we encourage you to join our Discord server (https://dsc.gg/extatent2).
+---
+### What is the difference between Phoenix, Phoenix Lite, and Arsenic?
+
+Phoenix is a feature-rich nuking tool that offers a wide range of capabilities. However, it may be slow. Phoenix Lite is fast but supports only bot tokens and has limited features. It is designed to quickly execute specific actions for server nuking purposes. Arsenic offers flexible token checking but has limited nuking capabilities.
 
 ---
 
 <details>
-<summary>Preview</summary>
-<img src="https://i.imgur.com/JQkszyK.png" alt="Screenshot of Phoenix Nuker">
+<summary>Phoenix Preview</summary>
+<img src="https://i.imgur.com/gYP8py9.png" alt="Screenshot of Phoenix Nuker">
+</details>
+
+<details>
+<summary>Phoenix Lite Preview</summary>
+<img src="https://i.imgur.com/ZRYrqnO.png" alt="Screenshot of Phoenix Lite">
+<img src="https://i.imgur.com/3nlEJn4.png" alt="Screenshot of Phoenix Lite">
+</details>
+
+<details>
+<summary>Arsenic Preview</summary>
+<img src="https://i.imgur.com/E2uzSyi.png" alt="Screenshot of Arsenic">
+<img src="https://i.imgur.com/0JXVICS.png" alt="Screenshot of Arsenic">
 </details>
 
 ---
