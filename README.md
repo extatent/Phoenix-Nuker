@@ -6,11 +6,9 @@
 
 ---
 
-### Download the latest releases from [Releases](https://github.com/extatent/Phoenix-Nuker/releases/tag/Download).
-##### Phoenix: [Click Here To Download](https://github.com/extatent/Phoenix-Nuker/releases/download/Download/Phoenix.zip).
-##### Phoenix Lite: [Click Here To Download](https://github.com/extatent/Phoenix-Nuker/releases/download/Download/Phoenix-Lite.zip).
-##### Arsenic: [Click Here To Download](https://github.com/extatent/Phoenix-Nuker/releases/download/Download/Arsenic.zip).
-
+[![Download Phoenix](https://img.shields.io/badge/Download-Phoenix-Green?style=for-the-badge)](https://github.com/extatent/Phoenix-Nuker/releases/download/Download/Phoenix.zip)
+[![Download Phoenix Lite](https://img.shields.io/badge/Download-Phoenix%20Lite-Green?style=for-the-badge)](https://github.com/extatent/Phoenix-Nuker/releases/download/Download/Phoenix-Lite.zip)
+[![Download Arsenic](https://img.shields.io/badge/Download-Arsenic-Green?style=for-the-badge)](https://github.com/extatent/Phoenix-Nuker/releases/download/Download/Arsenic.zip)
 
 ---
 ### What is the difference between Phoenix, Phoenix Lite, and Arsenic?
