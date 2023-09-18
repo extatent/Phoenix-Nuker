@@ -30,7 +30,7 @@ Phoenix is a feature-rich nuking tool that offers a wide range of capabilities. 
 
 <details>
 <summary>Arsenic Preview</summary>
-<img src="https://i.imgur.com/E2uzSyi.png" alt="Screenshot of Arsenic">
+<img src="https://i.imgur.com/k8rrR8P.png" alt="Screenshot of Arsenic">
 <img src="https://i.imgur.com/0JXVICS.png" alt="Screenshot of Arsenic">
 </details>
 
@@ -92,16 +92,16 @@ Phoenix is a feature-rich nuking tool that offers a wide range of capabilities. 
 <details>
 <summary>Windows</summary>
 
-* [Download x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.10-windows-x64-installer)
-* [Download x86](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.10-windows-x86-installer)
-* [Download Arm64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.10-windows-arm64-installer)
+* [Download x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.11-windows-x64-installer)
+* [Download x86](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.11-windows-x86-installer)
+* [Download Arm64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.11-windows-arm64-installer)
 
 </details>
 <details>
 <summary>macOS</summary>
 
-* [Download x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.10-macos-x64-installer)
-* [Download Arm64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.10-macos-arm64-installer)
+* [Download x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.11-macos-x64-installer)
+* [Download Arm64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-7.0.11-macos-arm64-installer)
 
 </details>
 <details>
