@@ -89,25 +89,6 @@ Phoenix is a feature-rich nuking tool that offers a wide range of capabilities. 
 </details>
 
 **3) Why does the program automatically close after opening?**
-> *If Phoenix Nuker automatically closes after opening, you may need to install .NET Runtime:*
-<details>
-<summary>Windows</summary>
+> *If any of the programs automatically closes after opening, you may need to install .NET Framework:*
 
-* [Download x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.0-windows-x64-installer)
-* [Download x86](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.0-windows-x86-installer)
-* [Download Arm64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.0-windows-arm64-installer)
-
-</details>
-<details>
-<summary>macOS</summary>
-
-* [Download x64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.0-macos-x64-installer)
-* [Download Arm64](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.0-macos-arm64-installer)
-
-</details>
-<details>
-<summary>Linux</summary>
-
-* [Install .NET on Linux](https://learn.microsoft.com/dotnet/core/install/linux?WT.mc_id=dotnet-35129-website)
-
-</details>
+[Download .NET Framework 4.8.1](https://download.microsoft.com/download/4/b/2/cd00d4ed-ebdd-49ee-8a33-eabc3d1030e3/NDP481-Web.exe)
