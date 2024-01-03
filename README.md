@@ -89,7 +89,7 @@ Phoenix Nuker is available at no cost. To keep it free, you can show your suppor
 
 > *Restart the Discord app by first exiting and then relaunching the app.*
 
-> *Press CTRL+Shift+I in the APP and paste:*
+> *Press CTRL+Shift+I in the APP, type "allow pasting" and paste:*
 ```javascript
 (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
 ```
@@ -97,7 +97,7 @@ Phoenix Nuker is available at no cost. To keep it free, you can show your suppor
 <details>
 <summary>Browser</summary>
 
-> *Go to Discord in your browser, login, press CTRL+SHIFT+J and paste:*
+> *Go to Discord in your browser, login, press CTRL+SHIFT+J, type "allow pasting" and paste:*
 ```javascript
 (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
 ```
