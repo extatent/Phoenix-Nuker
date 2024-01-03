@@ -16,6 +16,23 @@
 Phoenix is a feature-rich nuking tool that offers a wide range of capabilities. However, it may be slow. Phoenix Lite is fast but supports only bot tokens and has limited features. It is designed to quickly execute specific actions for server nuking purposes. Arsenic offers flexible token checking but has limited nuking capabilities.
 
 ---
+### Updates
+Phoenix Nuker is available at no cost. To keep it free, you can show your support by starring the project. Upon reaching specific milestones, marked by the number of stars achieved, new updates will be released. The progress is outlined as follows:
+| ⭐ | # |
+| --- | --- |
+| 16 | ✅ |
+| 32 | ✅ |
+| 64 | ✅ |
+| 128 | ✅ |
+| 256 | ✅ |
+| 288 | ❌ |
+| 320 | ❌ |
+| 352 | ❌ |
+| 384 | ❌ |
+| 448 | ❌ |
+| 512 | ❌ |
+
+---
 
 <details>
 <summary>Phoenix Preview</summary>
