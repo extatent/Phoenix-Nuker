@@ -16,7 +16,7 @@ Phoenix Nuker is available at no cost. To keep it free, you can show your suppor
 | 128 | ✅ |
 | 256 | ✅ |
 | 288 | ✅ |
-| 320 | ❌ |
+| 320 | ✅ |
 | 352 | ❌ |
 | 384 | ❌ |
 | 448 | ❌ |
