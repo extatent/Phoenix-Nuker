@@ -27,7 +27,6 @@ Phoenix Nuker is available at no cost. To keep it free, you can show your suppor
 ### Features
 
 * ` Easy-to-use interface`
-* ` Supports Windows, Linux, and macOS`
 * ` Secure (0% chance of getting banned or rate-limited)`
 * ` Feature-rich (50+ different features)`
 * ` No repeatable token or server ID entering required`
