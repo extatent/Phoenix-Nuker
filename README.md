@@ -1,10 +1,13 @@
 # Phoenix Nuker
 
-[![Discord server](https://img.shields.io/discord/1210546256641003540?color=blue&label=Discord%20server&logo=discord&logoColor=white&style=for-the-badge)](https://dsc.gg/phoenix-nuker)
 [![Stars](https://img.shields.io/github/stars/extatent/Phoenix-Nuker?label=Stars&style=for-the-badge)](https://github.com/extatent/Phoenix-Nuker/stargazers)
 [![Forks](https://img.shields.io/github/forks/extatent/Phoenix-Nuker?label=Forks&style=for-the-badge)](https://github.com/extatent/Phoenix-Nuker/network/members)
 [![License](https://img.shields.io/github/license/extatent/Phoenix-Nuker?style=for-the-badge)](https://github.com/extatent/Phoenix-Nuker/blob/main/LICENSE)
 [![Download Phoenix](https://img.shields.io/badge/Download-Phoenix-Green?style=for-the-badge)](https://github.com/extatent/Phoenix-Nuker/releases/download/Download/Phoenix.zip)
+
+---
+### Discord server
+Join the Discord server for updates and support: https://dsc.gg/phoenix-nuker
 
 ---
 ### Updates
