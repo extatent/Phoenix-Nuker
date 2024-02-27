@@ -44,7 +44,10 @@ Phoenix Nuker is available at no cost. To keep it free, you can show your suppor
 
 <details>
 <summary>Phoenix Preview</summary>
-<img src="https://i.imgur.com/mleUNNZ.png" alt="Screenshot of Phoenix Nuker">
+<img src="https://i.imgur.com/vry8aMB.png">
+<img src="https://i.imgur.com/v1SaaZw.png">
+<img src="https://i.imgur.com/IQrJkzE.png">
+<img src="https://i.imgur.com/dKTMMUj.png">
 </details>
 
 ---
